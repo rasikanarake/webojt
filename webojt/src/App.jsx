@@ -11,7 +11,7 @@ import CoursesPage from "./components/pages/CoursesPage";
 function App() {
   return (
     
-    <Router>
+    <BrowserRouter>
       <div className="main-layout">
         <Header/>
         <div className="content">
@@ -25,7 +25,7 @@ function App() {
         </div>
         <Footer/>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
