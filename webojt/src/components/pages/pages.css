@@ -17,7 +17,7 @@
 }
 
 .page-container {
-  max-width: 960px;
+  max-width: 100%;
   overflow: auto;
   height: 500px;
   margin: 20px auto;
